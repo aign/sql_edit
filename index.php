@@ -20,7 +20,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>ACE test</title>
+<title>ACE test 1.3</title>
 <style type="text/css" media="screen">
     #editor { 
         position: absolute;

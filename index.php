@@ -4,16 +4,16 @@
     if( isset( $_GET['sql_text'] ) )
     {
         $sql_text = $_GET['sql_text'];    
-        echo 1;    
+        
     }
 
     elseif (isset( $_GET['sql_field'] )) {
         $sql_field = $_GET['sql_field'];
-        echo 2;
+        
     }
     else 
     {
-        die('Incomplete request. ver 1.3');
+        die('Incomplete request. ver 1.4');
     }
 
     //require "template.php";
@@ -22,7 +22,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>ACE test 1.3</title>
+<title>ACE test 1.4</title>
 <style type="text/css" media="screen">
     #editor { 
         position: absolute;
@@ -41,7 +41,7 @@
         echo $sql_text;
     }
     if (isset($sql_field)){
-        echo $sql_text;
+        echo $sql_field;
     }
 
 ?>

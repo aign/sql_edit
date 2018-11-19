@@ -3,11 +3,13 @@
  
     if( isset( $_GET['sql_text'] ) )
     {
-        $sql_text = $_GET['sql_text'];        
+        $sql_text = $_GET['sql_text'];    
+        echo 1;    
     }
 
     elseif (isset( $_GET['sql_field'] )) {
         $sql_field = $_GET['sql_field'];
+        echo 2;
     }
     else 
     {

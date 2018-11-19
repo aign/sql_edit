@@ -15,7 +15,7 @@
 <body>
 
 <div id="editor">
-<?= $_GET['name'] ?>
+<?= $_GET['sql_text'] ?>
 </div>
     
 <script src="https://ace.c9.io/build/src/ace.js" type="text/javascript" charset="utf-8"></script>

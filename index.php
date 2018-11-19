@@ -7,7 +7,7 @@
     }
     else 
     {
-        die('Incomplete request. ver 1.');
+        die('Incomplete request. ver 1.1');
     }
     require "template.php";    
 ?>    

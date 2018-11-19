@@ -11,7 +11,7 @@
     }
     else 
     {
-        die('Incomplete request. ver 1.2');
+        die('Incomplete request. ver 1.3');
     }
 
     //require "template.php";
@@ -36,9 +36,12 @@
 <div id="editor">
 <?php
     if (isset($sql_text)){
-
         echo $sql_text;
     }
+    if (isset($sql_field)){
+        echo $sql_text;
+    }
+
 ?>
 
 </div>
